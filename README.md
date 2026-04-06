@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/26504401/README.md)
 
 # My Digital Portfolio
 
