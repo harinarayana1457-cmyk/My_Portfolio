@@ -1,0 +1,29 @@
+# Logs
+logs/
+*.log
+
+# Dependencies
+node_modules/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build & Outputs
+dist/
+build/
+out/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Editor & OS
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
