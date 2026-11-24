@@ -70,8 +70,6 @@ export const OverviewPane: React.FC<{
               <ChevronRight size={14} />
               {PROFILE.role}
             </span>
-            <span className="text-zinc-500 hidden sm:inline">•</span>
-            <span className="text-zinc-400">{PROFILE.location}</span>
           </div>
 
           <h2
@@ -578,7 +576,7 @@ export const ExperiencePane: React.FC = () => {
           <span>
             Specialization: <span className="accent-text">{EDUCATION.specialization}</span>
           </span>
-          <span>{EDUCATION.location}</span>
+          {EDUCATION.location && <span>{EDUCATION.location}</span>}
         </div>
       </div>
 

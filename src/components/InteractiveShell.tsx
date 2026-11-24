@@ -242,7 +242,7 @@ export function runShellCommand(
 
   if (cmdLower === 'education' || cmdLower === 'edu') {
     return [
-      { text: `${EDUCATION.institution} — ${EDUCATION.location}`, tone: 'accent' },
+      { text: `${EDUCATION.institution}`, tone: 'accent' },
       { text: `Degree         : ${EDUCATION.degree}`, tone: 'normal' },
       { text: `Specialization : ${EDUCATION.specialization}`, tone: 'normal' },
       { text: `Timeline       : ${EDUCATION.period}`, tone: 'muted' },

@@ -119,7 +119,7 @@ export const PROFILE = {
   headline:
     'Engineering stateful LLM agents, MCP servers, RAG knowledge graphs & production APIs.',
   status: 'OPEN TO AI / FULL-STACK ROLES & COLLABS',
-  location: 'Amaravati, Andhra Pradesh // UTC+5:30',
+  location: 'India // UTC+5:30',
   email: 'harinarayana1457@gmail.com',
   github: 'https://github.com/harinarayana1457-cmyk',
   githubUsername: 'harinarayana1457-cmyk',
@@ -150,7 +150,7 @@ export const EDUCATION = {
   degree: 'Bachelor of Technology in Electronics and Communication Engineering (ECE)',
   specialization: 'Embedded Systems and Artificial Intelligence / Machine Learning',
   period: 'Sept. 2025 — Present',
-  location: 'Amaravati, Andhra Pradesh',
+  location: '',
 };
 
 export const PROJECTS: ProjectItem[] = [
